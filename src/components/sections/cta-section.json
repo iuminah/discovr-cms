@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_cta_sections",
+  "info": {
+    "displayName": "CTASection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "navLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.link-item"
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.background-color"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_items_background_colors",
+  "info": {
+    "displayName": "BackgroundColor"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "gray"
+      ],
+      "default": "white"
+    }
+  }
+}

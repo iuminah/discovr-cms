@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_items_quote_items",
+  "info": {
+    "displayName": "QuoteItem"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

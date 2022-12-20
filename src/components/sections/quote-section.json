@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_quote_sections",
+  "info": {
+    "displayName": "QuoteSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "What clients say about us",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "quotes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.quote-item"
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.background-color"
+    }
+  }
+}

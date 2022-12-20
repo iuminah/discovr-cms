@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_sections_category_sections",
+  "info": {
+    "displayName": "CategorySection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "showThumbnail": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "showContent": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.background-color"
+    }
+  }
+}

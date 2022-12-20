@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_sections_mission_sections",
+  "info": {
+    "displayName": "MissionSection",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "missionTitle": {
+      "type": "string",
+      "default": "Mission"
+    },
+    "missionContent": {
+      "type": "text"
+    },
+    "visionTitle": {
+      "type": "string",
+      "default": "Vision"
+    },
+    "visionContent": {
+      "type": "text"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.background-color"
+    }
+  }
+}

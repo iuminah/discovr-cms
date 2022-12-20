@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_sections_schedule_sections",
+  "info": {
+    "displayName": "ScheduleSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "attachedFile": {
+      "type": "string"
+    },
+    "sendButton": {
+      "type": "string"
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.background-color"
+    }
+  }
+}

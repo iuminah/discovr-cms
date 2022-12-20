@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_service_sections",
+  "info": {
+    "displayName": "ServiceSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "virtualExperience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.service-item"
+    },
+    "realityExperience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.service-item"
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.background-color"
+    }
+  }
+}

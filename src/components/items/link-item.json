@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_items_link_items",
+  "info": {
+    "displayName": "LinkItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

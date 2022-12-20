@@ -1,0 +1,34 @@
+{
+  "name": "discovr-360-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/plugin-graphql": "^4.3.2",
+    "@strapi/plugin-i18n": "^4.3.2",
+    "@strapi/plugin-seo": "^1.7.4",
+    "@strapi/plugin-users-permissions": "^4.3.2",
+    "@strapi/strapi": "^4.3.2",
+    "better-sqlite3": "^7.6.2",
+    "mysql": "^2.18.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "bd090818-8228-4df4-9b88-0b7677ed14a1"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

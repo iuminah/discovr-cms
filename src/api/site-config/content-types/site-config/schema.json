@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_configs",
+  "info": {
+    "singularName": "site-config",
+    "pluralName": "site-configs",
+    "displayName": "SiteConfig",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adminEmail": {
+      "type": "email",
+      "required": true
+    },
+    "pagesToPopup": {
+      "type": "integer",
+      "default": 3,
+      "required": true
+    },
+    "pageSize": {
+      "type": "integer",
+      "required": true,
+      "default": 12
+    },
+    "blockingTime": {
+      "type": "integer"
+    }
+  }
+}

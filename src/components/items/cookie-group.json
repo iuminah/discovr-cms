@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_items_cookie_groups",
+  "info": {
+    "displayName": "CookieGroup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "editable": {
+      "type": "boolean"
+    },
+    "cookies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.cookie-item"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}
